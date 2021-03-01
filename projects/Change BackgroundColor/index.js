@@ -1,6 +1,6 @@
 const button = document.getElementById('color');
 const body = document.getElementById('change');
-let colorArr = ['red', 'blue', 'green', 'orange', 'yellow', 'violet', ''];
+let colorArr = ['red', 'blue', 'green', 'orange', 'yellow', 'violet'];
 
 function changeColor() {
     let randomColor = Math.round(Math.random() * colorArr.length);
