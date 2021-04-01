@@ -1,7 +1,7 @@
 const numberVal = document.getElementById('num');
 const addBtn = document.getElementById('increase');
 const subtractBtn = document.getElementById('decrease');
-let count = 0
+let count = 0//use the same count for every counter 
 
 function countUp() {
     if(count == 0) {
